@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2022 The ArrowOS Project
+# Copyright (C) 2022 The Kaleidoscope Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/arrow_atom.mk
+	$(LOCAL_DIR)/kscope_atom.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_atom-user \
-    arrow_atom-userdebug \
-    arrow_atom-eng 
+    kscope_atom-user \
+    kscope_atom-userdebug \
+    kscope_atom-eng 
