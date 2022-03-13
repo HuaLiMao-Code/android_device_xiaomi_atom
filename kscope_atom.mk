@@ -16,13 +16,13 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit from atom device
 $(call inherit-product, device/xiaomi/atom/device.mk)
 
 # Inherit some common Kaleidoscope stuff.
-$(call inherit-product, vendor/kscope/config/common.mk)
+$(call inherit-product, vendor/kscope/config/mobile.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := kscope_atom
